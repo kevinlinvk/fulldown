@@ -5,7 +5,7 @@
 
 $(document).ready(function() {
     // 当前选中的插件ID
-    let currentPluginId = 'twitter_downloader'; // 默认选中推特下载插件
+    let currentPluginId = 'multi_downloader'; // 默认选中多源下载插件
     
     // 插件按钮点击事件
     $('.plugin-btn').on('click', function() {
