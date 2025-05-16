@@ -360,6 +360,8 @@ class FalldownDownloaderPlugin extends PluginBase {
      * 格式化视频时长
      */
     private function formatDuration($seconds) {
+        // 确保使用整数
+        $seconds = (int)$seconds;
         $hours = floor($seconds / 3600);
         $minutes = floor(($seconds % 3600) / 60);
         $seconds = $seconds % 60;

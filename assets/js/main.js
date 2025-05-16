@@ -5,7 +5,7 @@
 
 $(document).ready(function() {
     // 当前选中的插件ID
-    let currentPluginId = 'multi_downloader'; // 默认选中多源下载插件
+    let currentPluginId = 'falldown_downloader'; // 默认选中多源下载插件
     
     // 插件按钮点击事件
     $('.plugin-btn').on('click', function() {
@@ -109,7 +109,7 @@ $(document).ready(function() {
             case 'twitter_downloader':
                 placeholder = '粘贴推特视频链接 (例如: https://twitter.com/user/status/123456789)';
                 break;
-            case 'multi_downloader':
+            case 'falldown_downloader':
                 placeholder = '粘贴任意支持的视频网站链接 (例如: YouTube, 哔哩哔哩, TikTok 等)';
                 break;
             default:
