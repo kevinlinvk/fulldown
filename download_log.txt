@@ -1,0 +1,19 @@
+[2025-05-16 09:51:31] [INFO] 原始 URL: https://twitter.com/Rainmaker1973/status/1922647761087869058
+[2025-05-16 09:51:31] [INFO] 清理后 URL: https://twitter.com/Rainmaker1973/status/1922647761087869058
+[2025-05-16 09:51:31] [INFO] URL类型识别: twitter
+[2025-05-16 09:51:32] [INFO] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.exe
+[2025-05-16 09:51:32] [INFO] 检测到配置文件: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.conf
+[2025-05-16 09:51:32] [INFO] 为Twitter添加特定参数
+[2025-05-16 09:51:33] [INFO] 使用FFmpeg作为外部下载器
+[2025-05-16 09:51:33] [INFO] 使用以下参数:
+[2025-05-16 09:51:33] [INFO] 基本参数:  -j --no-warnings --no-playlist
+[2025-05-16 09:51:33] [INFO] 配置文件参数:  --config-location "C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.conf"
+[2025-05-16 09:51:33] [INFO] 额外参数:  --force-ipv4 --no-check-certificates --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --downloader ffmpeg
+[2025-05-16 09:51:33] [INFO] 目标URL: https://twitter.com/Rainmaker1973/status/1922647761087869058
+[2025-05-16 09:51:33] [INFO] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.exe --config-location "C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.conf" -j --no-warnings --no-playlist --force-ipv4 --no-check-certificates --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --downloader ffmpeg "https://twitter.com/Rainmaker1973/status/1922647761087869058"
+[2025-05-16 09:51:51] [ERROR] 执行命令返回错误: ERROR: [twitter] 1922647761087869058: Unable to download JSON metadata: EOF occurred in violation of protocol (_ssl.c:1007) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1007)'));
+[2025-05-16 09:51:51] [ERROR] 错误: yt-dlp/youtube-dl 执行返回错误: ERROR: [twitter] 1922647761087869058: Unable to download JSON metadata: EOF occurred in violation of protocol (_ssl.c:1007) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1007)'));
+[2025-05-16 09:51:51] [INFO] 尝试使用备用方法获取视频...
+[2025-05-16 09:51:51] [INFO] 使用Twitter备用方法获取视频
+[2025-05-16 09:52:06] [ERROR] HTTP请求失败: 状态码 0, 错误: Connection timed out after 15015 milliseconds
+[2025-05-16 09:52:06] [ERROR] 备用方法也失败: 无法获取Twitter页面内容

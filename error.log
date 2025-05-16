@@ -1,0 +1,92 @@
+[16-May-2025 09:16:51 Asia/Shanghai] [2025-05-16 09:16:51] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:16:51 Asia/Shanghai] [2025-05-16 09:16:51] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:16:52 Asia/Shanghai] [2025-05-16 09:16:52] 错误: 未检测到可用的yt-dlp或youtube-dl，请检查环境变量或配置绝对路径
+[16-May-2025 09:19:38 Asia/Shanghai] [2025-05-16 09:19:38] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:38 Asia/Shanghai] [2025-05-16 09:19:38] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:38 Asia/Shanghai] [2025-05-16 09:19:38] 错误: 未检测到可用的yt-dlp或youtube-dl，请检查环境变量或配置绝对路径
+[16-May-2025 09:19:39 Asia/Shanghai] [2025-05-16 09:19:39] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:39 Asia/Shanghai] [2025-05-16 09:19:39] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:39 Asia/Shanghai] [2025-05-16 09:19:39] 错误: 未检测到可用的yt-dlp或youtube-dl，请检查环境变量或配置绝对路径
+[16-May-2025 09:19:41 Asia/Shanghai] [2025-05-16 09:19:41] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:41 Asia/Shanghai] [2025-05-16 09:19:41] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:41 Asia/Shanghai] [2025-05-16 09:19:41] 错误: 未检测到可用的yt-dlp或youtube-dl，请检查环境变量或配置绝对路径
+[16-May-2025 09:19:42 Asia/Shanghai] [2025-05-16 09:19:42] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:42 Asia/Shanghai] [2025-05-16 09:19:42] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:19:42 Asia/Shanghai] [2025-05-16 09:19:42] 错误: 未检测到可用的yt-dlp或youtube-dl，请检查环境变量或配置绝对路径
+[16-May-2025 09:20:14 Asia/Shanghai] [2025-05-16 09:20:14] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:20:14 Asia/Shanghai] [2025-05-16 09:20:14] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:20:16 Asia/Shanghai] [2025-05-16 09:20:16] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\plugins\multi_downloader/../../bin/yt-dlp
+[16-May-2025 09:20:16 Asia/Shanghai] [2025-05-16 09:20:16] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\plugins\multi_downloader/../../bin/yt-dlp -j --no-warnings --no-playlist "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 09:20:39 Asia/Shanghai] [2025-05-16 09:20:39] 错误: yt-dlp/youtube-dl 执行失败或未找到视频
+[16-May-2025 09:35:48 Asia/Shanghai] [2025-05-16 09:35:48] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:35:48 Asia/Shanghai] [2025-05-16 09:35:48] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:35:50 Asia/Shanghai] [2025-05-16 09:35:50] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\plugins\multi_downloader\..\..\bin\yt-dlp.exe
+[16-May-2025 09:35:50 Asia/Shanghai] [2025-05-16 09:35:50] 检测到Twitter/X链接，添加特殊参数
+[16-May-2025 09:35:50 Asia/Shanghai] [2025-05-16 09:35:50] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\plugins\multi_downloader\..\..\bin\yt-dlp.exe -j --no-warnings --no-playlist --cookies-from-browser chrome --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 09:35:52 Asia/Shanghai] [2025-05-16 09:35:52] 执行命令返回错误: ERROR: Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+ERROR: Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+[16-May-2025 09:35:52 Asia/Shanghai] [2025-05-16 09:35:52] 错误: yt-dlp/youtube-dl 执行返回错误: ERROR: Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+ERROR: Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more
+[16-May-2025 09:36:02 Asia/Shanghai] [2025-05-16 09:36:02] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:36:02 Asia/Shanghai] [2025-05-16 09:36:02] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:36:04 Asia/Shanghai] [2025-05-16 09:36:04] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\plugins\twitter_downloader/../../bin/yt-dlp
+[16-May-2025 09:36:04 Asia/Shanghai] [2025-05-16 09:36:04] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\plugins\twitter_downloader/../../bin/yt-dlp -j --no-warnings --no-playlist "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 09:36:21 Asia/Shanghai] [2025-05-16 09:36:21] 错误: yt-dlp/youtube-dl 执行失败或未找到视频
+[16-May-2025 09:42:56 Asia/Shanghai] [2025-05-16 09:42:56] [INFO] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:42:56 Asia/Shanghai] [2025-05-16 09:42:56] [INFO] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:42:56 Asia/Shanghai] [2025-05-16 09:42:56] [INFO] URL类型识别: twitter
+[16-May-2025 09:42:57 Asia/Shanghai] [2025-05-16 09:42:57] [INFO] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.exe
+[16-May-2025 09:42:57 Asia/Shanghai] [2025-05-16 09:42:57] [INFO] 为Twitter添加特定参数
+[16-May-2025 09:42:57 Asia/Shanghai] [2025-05-16 09:42:57] [INFO] 使用FFmpeg作为外部下载器
+[16-May-2025 09:42:57 Asia/Shanghai] [2025-05-16 09:42:57] [INFO] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.exe -j --no-warnings --no-playlist --force-ipv4 --no-check-certificates --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --downloader ffmpeg "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 09:43:15 Asia/Shanghai] [2025-05-16 09:43:15] [ERROR] 执行命令返回错误: ERROR: [twitter] 1922647761087869058: Unable to download JSON metadata: EOF occurred in violation of protocol (_ssl.c:1007) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1007)'));
+[16-May-2025 09:43:15 Asia/Shanghai] [2025-05-16 09:43:15] [ERROR] 错误: yt-dlp/youtube-dl 执行返回错误: ERROR: [twitter] 1922647761087869058: Unable to download JSON metadata: EOF occurred in violation of protocol (_ssl.c:1007) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1007)'));
+[16-May-2025 09:43:15 Asia/Shanghai] [2025-05-16 09:43:15] [INFO] 尝试使用备用方法获取视频...
+[16-May-2025 09:43:15 Asia/Shanghai] [2025-05-16 09:43:15] [INFO] 使用Twitter备用方法获取视频
+[16-May-2025 09:43:30 Asia/Shanghai] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\kevin\Documents\cursor\fulldown\plugins\multi_downloader\multi_downloader.php on line 609
+[16-May-2025 09:43:41 Asia/Shanghai] [2025-05-16 09:43:41] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:43:41 Asia/Shanghai] [2025-05-16 09:43:41] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:43:43 Asia/Shanghai] [2025-05-16 09:43:43] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\plugins\twitter_downloader/../../bin/yt-dlp
+[16-May-2025 09:43:43 Asia/Shanghai] [2025-05-16 09:43:43] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\plugins\twitter_downloader/../../bin/yt-dlp -j --no-warnings --no-playlist "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 09:44:06 Asia/Shanghai] [2025-05-16 09:44:06] 错误: yt-dlp/youtube-dl 执行失败或未找到视频
+[16-May-2025 09:50:35 Asia/Shanghai] [2025-05-16 09:50:35] [INFO] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:50:35 Asia/Shanghai] [2025-05-16 09:50:35] [INFO] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:50:35 Asia/Shanghai] [2025-05-16 09:50:35] [INFO] URL类型识别: twitter
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 检测到可用解析器: C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.exe
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 检测到配置文件: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.conf
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 为Twitter添加特定参数
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 使用FFmpeg作为外部下载器
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 使用以下参数:
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 基本参数:  -j --no-warnings --no-playlist
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 配置文件参数:  --config-location "C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.conf"
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 额外参数:  --force-ipv4 --no-check-certificates --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --downloader ffmpeg
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 目标URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 09:50:37 Asia/Shanghai] [2025-05-16 09:50:37] [INFO] 执行命令: C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.exe --config-location "C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.conf" -j --no-warnings --no-playlist --force-ipv4 --no-check-certificates --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --downloader ffmpeg "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 09:50:55 Asia/Shanghai] [2025-05-16 09:50:55] [ERROR] 执行命令返回错误: ERROR: [twitter] 1922647761087869058: Unable to download JSON metadata: EOF occurred in violation of protocol (_ssl.c:1007) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1007)'));
+[16-May-2025 09:50:55 Asia/Shanghai] [2025-05-16 09:50:55] [ERROR] 错误: yt-dlp/youtube-dl 执行返回错误: ERROR: [twitter] 1922647761087869058: Unable to download JSON metadata: EOF occurred in violation of protocol (_ssl.c:1007) (caused by SSLError('EOF occurred in violation of protocol (_ssl.c:1007)'));
+[16-May-2025 09:50:55 Asia/Shanghai] [2025-05-16 09:50:55] [INFO] 尝试使用备用方法获取视频...
+[16-May-2025 09:50:55 Asia/Shanghai] [2025-05-16 09:50:55] [INFO] 使用Twitter备用方法获取视频
+[16-May-2025 09:51:10 Asia/Shanghai] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\kevin\Documents\cursor\fulldown\plugins\multi_downloader\multi_downloader.php on line 623
+[16-May-2025 15:26:44 Asia/Shanghai] [2025-05-16 15:26:44] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 15:26:44 Asia/Shanghai] [2025-05-16 15:26:44] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 15:26:44 Asia/Shanghai] [2025-05-16 15:26:44] 检测到网站类型: twitter.com
+[16-May-2025 15:26:45 Asia/Shanghai] [2025-05-16 15:26:45] 找到yt-dlp: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.exe, 版本: 2025.04.30
+[16-May-2025 15:26:45 Asia/Shanghai] [2025-05-16 15:26:45] 使用解析器: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.exe
+[16-May-2025 15:26:45 Asia/Shanghai] [2025-05-16 15:26:45] 执行命令: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.exe -j --no-warnings --no-playlist --force-ipv4 --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --add-header "DNT:1" "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 15:26:46 Asia/Shanghai] [2025-05-16 15:26:46] yt-dlp返回错误: 
+Usage: yt-dlp.exe [OPTIONS] URL [URL...]
+
+yt-dlp.exe: error: Unable to parse "C:\Users\kevin\Documents\cursor\fulldown\bin\yt-dlp.conf": 'gbk' codec can't decode byte 0x80 in position 482: illegal mu
+[16-May-2025 15:26:46 Asia/Shanghai] [2025-05-16 15:26:46] 错误: yt-dlp返回错误: 
+Usage: yt-dlp.exe [OPTIONS] URL [URL...]
+
+yt-dlp.exe: error: Unable to parse "C:\Users\kevin\Docume
+[16-May-2025 15:46:04 Asia/Shanghai] [2025-05-16 15:46:04] 原始 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 15:46:04 Asia/Shanghai] [2025-05-16 15:46:04] 清理后 URL: https://x.com/Rainmaker1973/status/1922647761087869058
+[16-May-2025 15:46:04 Asia/Shanghai] [2025-05-16 15:46:04] 检测到网站类型: twitter.com
+[16-May-2025 15:46:05 Asia/Shanghai] [2025-05-16 15:46:05] 找到yt-dlp: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.exe, 版本: 2025.04.30
+[16-May-2025 15:46:05 Asia/Shanghai] [2025-05-16 15:46:05] 使用解析器: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.exe
+[16-May-2025 15:46:05 Asia/Shanghai] [2025-05-16 15:46:05] 执行命令: C:\Users\kevin\Documents\cursor\fulldown/bin/yt-dlp.exe --config-location NUL  -j --no-warnings --no-playlist --force-ipv4 --extractor-args "twitter:tweet_mode=extended" --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" --add-header "Accept-Language:zh-CN,zh;q=0.9,en;q=0.8" --add-header "DNT:1" "https://x.com/Rainmaker1973/status/1922647761087869058"
+[16-May-2025 15:46:23 Asia/Shanghai] [2025-05-16 15:46:23] yt-dlp返回错误: [debug] Command-line config: ['--config-location', 'NUL', '-j', '--no-warnings', '--no-playlist', '--force-ipv4', '--extractor-args', 'twitter:tweet_mode=extended', '--add-header', 'User-Agent:Mozilla
+[16-May-2025 15:46:23 Asia/Shanghai] [2025-05-16 15:46:23] 错误: yt-dlp返回错误: [debug] Command-line config: ['--config-location', 'NUL', '-j', '--no-warnings', '--no-playlist', '-

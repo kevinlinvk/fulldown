@@ -191,9 +191,35 @@ $(document).ready(function() {
             </div>
         `);
         $('#result-area').fadeIn();
-        // 显示日志
+        
+        // 显示日志（新格式）
         if (logs && logs.length > 0) {
-            $('#log-content').html('<b>详细日志：</b><br>' + logs.map(l => $('<div>').text(l).html()).join('<br>')).show();
+            let logHtml = '<div class="log-container"><h6 class="mb-2">详细日志：</h6>';
+            
+            // 检查日志格式，支持新旧两种格式
+            if (typeof logs[0] === 'object') {
+                // 新格式日志（带级别）
+                logHtml += '<div class="logs-content">';
+                logs.forEach(log => {
+                    const levelClass = getLevelClass(log.level);
+                    logHtml += `<div class="log-entry ${levelClass}">
+                        <span class="log-time">${log.time}</span>
+                        <span class="log-level badge ${levelClass}">${log.level.toUpperCase()}</span>
+                        <span class="log-message">${escapeHtml(log.message)}</span>
+                    </div>`;
+                });
+                logHtml += '</div>';
+            } else {
+                // 旧格式日志（纯文本）
+                logHtml += '<div class="logs-content">';
+                logs.forEach(log => {
+                    logHtml += `<div class="log-entry">${escapeHtml(log)}</div>`;
+                });
+                logHtml += '</div>';
+            }
+            
+            logHtml += '</div>';
+            $('#log-content').html(logHtml).show();
         } else {
             $('#log-content').hide();
         }
@@ -255,16 +281,25 @@ $(document).ready(function() {
             html += '<div class="table-responsive mb-3"><table class="table table-sm table-bordered">';
             html += '<thead class="table-light"><tr>';
             html += '<th>质量</th>';
+            html += '<th>格式</th>';
+            html += '<th>大小</th>';
             html += '<th>操作</th>';
             html += '</tr></thead><tbody>';
             
             data.formats.forEach(function(format, index) {
                 // 解析质量信息
                 const qualityInfo = format.quality || '未知质量';
+                const formatInfo = format.ext ? `.${format.ext}` : '';
+                const sizeInfo = format.size || '未知';
                 
                 html += '<tr>';
                 html += `<td><strong>${qualityInfo}</strong></td>`;
-                html += `<td><a href="${format.url}" class="btn btn-sm btn-success" target="_blank" download>下载</a></td>`;
+                html += `<td>${formatInfo}</td>`;
+                html += `<td>${sizeInfo}</td>`;
+                html += `<td>
+                    <a href="${format.url}" class="btn btn-sm btn-success" target="_blank" download>下载</a>
+                    <button class="btn btn-sm btn-info copy-url" data-url="${format.url}">复制链接</button>
+                </td>`;
                 html += '</tr>';
             });
             
@@ -279,11 +314,86 @@ $(document).ready(function() {
         
         $('#result-content').html(html);
         $('#result-area').fadeIn();
-        // 显示日志
+        
+        // 显示日志（新格式）
         if (data.logs && data.logs.length > 0) {
-            $('#log-content').html('<b>详细日志：</b><br>' + data.logs.map(l => $('<div>').text(l).html()).join('<br>')).show();
+            let logHtml = '<div class="log-container mt-4"><h6 class="mb-2 fw-bold">处理日志：</h6>';
+            
+            // 检查日志格式，支持新旧两种格式
+            if (typeof data.logs[0] === 'object') {
+                // 新格式日志（带级别）
+                logHtml += '<div class="logs-content">';
+                data.logs.forEach(log => {
+                    const levelClass = getLevelClass(log.level);
+                    logHtml += `<div class="log-entry ${levelClass}">
+                        <span class="log-time">${log.time}</span>
+                        <span class="log-level badge ${levelClass}">${log.level.toUpperCase()}</span>
+                        <span class="log-message">${escapeHtml(log.message)}</span>
+                    </div>`;
+                });
+                logHtml += '</div>';
+            } else {
+                // 旧格式日志（纯文本）
+                logHtml += '<div class="logs-content">';
+                data.logs.forEach(log => {
+                    logHtml += `<div class="log-entry">${escapeHtml(log)}</div>`;
+                });
+                logHtml += '</div>';
+            }
+            
+            logHtml += '</div>';
+            $('#log-content').html(logHtml).show();
         } else {
             $('#log-content').hide();
         }
+        
+        // 为复制链接按钮添加事件
+        $('.copy-url').on('click', function() {
+            const url = $(this).data('url');
+            copyToClipboard(url);
+            
+            // 显示复制成功提示
+            $(this).text('已复制!');
+            setTimeout(() => {
+                $(this).text('复制链接');
+            }, 2000);
+        });
+    }
+    
+    /**
+     * 获取日志级别对应的CSS类
+     * @param {string} level 日志级别
+     * @return {string} CSS类名
+     */
+    function getLevelClass(level) {
+        switch(level) {
+            case 'error': return 'log-error';
+            case 'warning': return 'log-warning';
+            case 'success': return 'log-success';
+            case 'info': default: return 'log-info';
+        }
+    }
+    
+    /**
+     * 转义HTML特殊字符
+     * @param {string} str 输入字符串
+     * @return {string} 转义后的字符串
+     */
+    function escapeHtml(str) {
+        if (!str) return '';
+        return $('<div>').text(str).html();
+    }
+    
+    /**
+     * 复制文本到剪贴板
+     * @param {string} text 要复制的文本
+     */
+    function copyToClipboard(text) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
     }
 }); 

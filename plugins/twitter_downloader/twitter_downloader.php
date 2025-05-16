@@ -95,9 +95,10 @@ class TwitterDownloaderPlugin extends PluginBase {
             throw new \RuntimeException('未检测到可用的yt-dlp或youtube-dl，请检查环境变量或配置绝对路径');
         }
 
-        $cmd = $ytDlpBin . ' -j --no-warnings --no-playlist ' . escapeshellarg($url);
+        $configNull = DIRECTORY_SEPARATOR === '/' ? '/dev/null' : 'NUL';
+        $cmd = $ytDlpBin . ' --config-location ' . $configNull . ' -j --no-warnings --no-playlist --force-ipv4 --extractor-args "twitter:tweet_mode=extended" ' . escapeshellarg($url);
         $this->log("执行命令: {$cmd}");
-        $output = shell_exec($cmd);
+        $output = shell_exec($cmd . " 2>&1");
         if (!$output) {
             throw new \RuntimeException('yt-dlp/youtube-dl 执行失败或未找到视频');
         }
